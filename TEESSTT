@@ -1,0 +1,11 @@
+baza_dannych = {
+  "LOL": 'odpowiedź na coś zabawnego',
+  "CRINGE": 'coś dziwnego lub wstydliwego',
+  "ROFL": 'odpowiedź na żart',
+  "SHEESH": 'lekka dezaprobata',
+}
+student = input("Wpisz imie ucznia:")
+if student in baza_dannych.keys():
+    print("student:", baza_dannych[student])
+else:
+    print("niema takiego studentu")
